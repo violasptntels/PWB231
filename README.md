@@ -26,12 +26,6 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
    
 # Tools git scm
 Download git-scm dari https://git-scm.com/downloads
-## Get SSH Key 
-to get ssh key in your computer, and put in your github or gitlab ssh key setting.
-
-```sh
-cat ~/.ssh/id_rsa.pub
-```
 ## Set config global
 Just One time for first instalation of git scm, 
 ```sh
