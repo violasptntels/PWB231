@@ -52,3 +52,8 @@ Just One time for first instalation of git scm,
 ```sh
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
+## Pilih Setting
+![image](https://github.com/kerjabhakti/PWB231/assets/15622730/327a8613-407a-4c1c-9a00-fc0f75344dc4)
+## Masukan New SSH Key (paste)
+![image](https://github.com/kerjabhakti/PWB231/assets/15622730/ce9ec81d-8847-48fe-ad3c-c98bdef7f84e)
+
