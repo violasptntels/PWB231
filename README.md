@@ -2,7 +2,7 @@
 Kelas 1B Tahun 2023 Semester 1 (Ganjil) <br>
 Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dimana mahasiswa akan mendapatkan materi perkuliahan dan pengumpulan tugas pada repo ini
 
-# Progress
+# Progress - Rencana Pembelajaran Semester (RPS) 
 1. Pengenalan ke Logika Pemrograman (Programming Logic 101)
 2. Memulai Dasar Pemrograman untuk Menjadi Pengembang Software
 3. Belajar Dasar Git dengan GitHub
