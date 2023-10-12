@@ -1,0 +1,15 @@
+{
+  "workbench.colorTheme": "Default Light+",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  "editor.fontWeight": "normal",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 1
+}
