@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewspot" content="width=device-width, initial-scale=1.0" />
+    <title>Style Program</Style></title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font: Arial, sans-serif;
+        background: #ff62008a;
+        margin: 0;
+        padding: 0;
+      }
+      h1{
+            color: black;
+            text-align: center;
+            margin: 20px  0;
+      }
+      .article {
+        background: #ff2701ae;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .article:hover{
+            transform: scale(1.1);
+      }
+    </style>
+    <script>
+        function t(){
+        var e = document.getElementById("comments");
+        e.style.display = "none" === e.style.display ? "block": "none";
+        }</script>
+  </head>
+
+  <body>
+    <h1><center>Selamat datang di Ayam Bakar Abah</h1>
+    <div class="article">
+      <h2>MENU BARU!!</h2>
+      <p>Kalian belum coba menu baru dari Ayam Bakar Abah? Mending kalian cobain deh sekarang!</p>
+    </div>
+    <div class="article">
+      <h2>Diskon Besar Besaran!!</h2>
+      <p>Diskon besar besaran nih</p>
+    </div>
+    <button onclick="t()">Komentar</button>
+    <div id="comments" style="display: none;">
+        <h3>Komentar</h3>
+        <p>Viola : Jangan lupa traktir balik ya han, kan ada diskon 80%</p>
+        <p>Agung : Dimana eta han? info lokasi.</p>
+  </body>
+</html>
