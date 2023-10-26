@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+      .item {
+        background-color: lightskyblue;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+      }
+      .special {
+        background-color: lightsalmon;
+      }
+      #unique {
+        background-color: lightgreen;
+      }
+      .container p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS dan grid selector</h2>
+    <div class="container">
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item special">item 3 (special)</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item" id="unique">item 6 (unique)</div>
+      <p>ini adalah contoh text didalam "container"</p>
+    </div>
+    <p>ini adalah contoh text diluar "container"</p>
+  </body>
+</html>
