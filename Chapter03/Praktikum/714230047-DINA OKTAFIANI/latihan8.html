@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- javascript -->
+    <script>
+        function t() {
+            var e = document.getElementById("comments");
+            e.style.display = "none" === e.style.display ? "block" : "none";
+        }
+
+
+    </script>
+    <style>
+        body {
+            font: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin: 20px 0;
+
+        }
+
+        .article {
+            background-color: rgb(14, 235, 150);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Makanan Favorit Aku dan Teman teman ku</h1>
+    <div class="article">
+        <h2>Bakso si ojo ramon</h2>
+        <p>Bakso ini salah satu favorit ku di Bandung</p>
+    </div>
+    <div class="article">
+        <h2>Fried Chicken mang OE</h2>
+        <p>Mantap,deket rumah murah dan ramah</p>
+    </div>
+    <!-- Javascript -->
+    <button onclick="t()">Komentar</button>
+    <div id="comments" style="display: none;">
+        <h3>Komentar Netizen</h3>
+        <p>Orang 1 : Mantap</p>
+        <p>Orang 2 : Aku Juga suka Bakso ojo ramon</p>
+    </div>
+</body>
+
+</html>
