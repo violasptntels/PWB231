@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid dan Selector</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+
+      .item {
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      /* Selector untuk elemen dengan class "special" */
+      .special {
+        background-color: aqua;
+      }
+
+      /* Selector untuk elemen dengan id "unique" */
+      #unique {
+        background-color: black;
+      }
+
+      /* Selector untuk elemen <p> yang ada dalam class "container" */
+      .container p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Css Grid dan Selector</h1>
+    <div class="container">
+      <div class="item">necro sword</div>
+      <div class="item">katana</div>
+      <div class="item special">Mana no limit (Special)</div>
+      <div class="item">samurai</div>
+      <div class="item">sword anti mana</div>
+      <div class="item" id="unique">Clover 4 (unique)</div>
+    </div>
+    <p>Ini contoh teks dalam class "contaier".</p>
+    <p>Ini contoh teks di luar class "contaier".</p>
+  </body>
+</html>

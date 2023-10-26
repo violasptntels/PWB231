@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Css Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 3, 1fr;
+            gap: 10px;
+        }
+        .item {
+            background-color: aqua;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .special{
+            background-color: blue;
+        }
+        #unique {
+            background-color: aqua;
+        }
+        .container p {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Grid dan Selector</h1>
+    <div class="container">
+        <div class="Item 1">Item 1</div>
+        <div class="Item 2">Item 2</div>
+        <div class="special">Item 3 (special)</div>
+        <div class="Item 4">Item 4</div>
+        <div class="Item 5">Item 5</div>
+        <div class="item" id="unique">Item 6 (unique)</div>
+    </div>
+    <p>Ini adalah contoh teks didalam container</p>
+    <p>Dan ini adalah contoh teks diluar container</p>
+</body>
+</html>
