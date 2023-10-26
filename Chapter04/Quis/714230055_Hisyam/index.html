@@ -1,37 +1,37 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tampilan Website Responsif</title>
+    <title>tampilan website responsif</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body{
+            font-family: Arial,sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f2f2f2;
         }
 
-        header {
-            background-color: #333;
+        header{
+            background-color: #3498db;
             color: white;
             text-align: center;
             padding: 20px;
         }
 
-        nav {
+        nav{
             display: flex;
             justify-content: center;
             background-color: #27ae60;
         }
 
-        nav a {
+        nav a{
             text-decoration: none;
             color: white;
             padding: 10px 20px;
         }
 
-        .container {
+        .container{
             max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
@@ -42,62 +42,62 @@
             justify-content: space-between;
         }
 
-        .main-content {
+        .main-content{
             flex: 70%;
         }
 
-        .sidebar {
-            flex: 38%;
+        .sidebar{
+            flex: 30%;
         }
 
-        footer {
+        footer{
             background-color: #333;
             color: white;
             text-align: center;
             padding: 10px;
         }
 
-        @media (max-width: 768px) {
-            .containter {
+        /* responsif */
+        @media (max-width: 768px){
+            .container{
                 flex-direction: column;
             }
-
             .main-content,
-            .sidebar {
+            .sidebar{
                 width: 100px;
             }
         }
     </style>
 </head>
-
 <body>
     <header>
-        <h1>Selamat Datang di contoh website saya</h1>
+        <h1>Selamat Datang di website keren</h1>
     </header>
     <nav>
-        ref="https://www.petanikode.com/tutorial/css/">Tentang</a>
-        <a href="https://www.petanikode.com/tutorial/c++/">Layanan</a>
-        <a href="https://www.petanikode.com/tutorial/python/">Kontak</a>
-    </nav><a href="https://www.petanikode.com/tutorial/html/">Beranda</a>
-    <a h <div class="container">
+        <a href="https://www.ulbi.ac.id/">Beranda</a>
+        <a href="https://www.ulbi.ac.id/">Tentang Kami</a>
+        <a href="https://www.ulbi.ac.id/">Layanan</a>
+        <a href="https://www.ulbi.ac.id/">Kontak</a>
+    </nav>
+    <div class="container">
         <div class="main-content">
-            <h2>Selamat datang di website sederhana</h2>
+            <h2>Selamat datang di website kami</h2>
             <p>
-                Ini adalah contoh tampilan website sederhana yang responsif.
-                Anda dapat menambahkan lebih banyak konten di sini
+                Ini adalah contoh tampilan website sederhana yg responsif. dapat menambahkan lebih banyak konten disini.
             </p>
         </div>
         <div class="sidebar">
             <h3>Bar Samping</h3>
             <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
             </ul>
-
+           
         </div>
-        </div>
-
+        
+    </div> <footer>
+            <p>2023 website Keren. Hak Cipta dilindungi.</p>
+        </footer>
 </body>
-
 </html>
