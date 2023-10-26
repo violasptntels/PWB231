@@ -128,7 +128,7 @@ form {
 }
 textarea.input {
     resize: none;
-    min-height: 150px;
+    min-height: 151px;
     overflow: auto;
     padding-top: 10px;
 }
