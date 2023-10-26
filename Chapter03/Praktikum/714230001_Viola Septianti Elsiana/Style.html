@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+    <style>
+        body{
+            font: Arial,sans-serif;
+            background-color: antiquewhite;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            color: black;
+            text-align: center;
+            margin: 20px  0;
+        }
+        .article{
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: 1.1s;
+        }
+        .article:hover{
+            transform: scale(1.1);
+        }
+    </style>
+<script>
+    function t(){
+    var e = document.getElementById("comments");
+    e.style.display = "none" === e.style.display ? "block": "none";
+    }</script>
+</head>
+
+<body>
+    <h1>Daftar anime terbaik menurut teman temanku</h1>
+    <div class="article">
+        <h2>Assasination Classroom</h2>
+        <p>
+            Anime ini membuat aku nangis di discord sehingga harus meneraktir teman ku yang namanya Reyhan
+        </p>
+    </div>
+    <div class="article">
+        <h2>Naruto Shippuden</h2>
+        <p>
+            Anime ini menemaniku dari masa kecil,i love naruto.
+        </p>
+    </div>
+    <button onclick="t()">Komentar</button>
+<div id="comments" style="display: none;">
+    <h3>Komentar</h3>
+    <p>Reyhan : Terimakasih traktirannya piol!</p>
+    <p>Octa : Mantap Coi!</p>
+
+</div>
+
+    
+</body>
+</html>
