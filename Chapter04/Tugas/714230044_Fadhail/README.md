@@ -1,3 +1,0 @@
-# MEMBUAT WEBSITE UNTUK BERJUALAN PERLENGKAPAN TNI
-Menggunakan HTML dan CSS saja
-Sudah responsive
