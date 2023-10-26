@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML RESPONSIF</title>
+    <style>
+        body {font-family: arial, sans-serif;
+        margin:0;
+        padding:0;
+    background-color: rgb(253, 253, 253);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 17, 17);
+}
+nav a{
+    text-decoration: wavy;
+    color: rgb(202, 13, 13);
+    padding: 20px 30px;
+}
+.container {
+    max-width: 1250px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-content {
+    flex: 70%;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px; 
+}
+@media (max-width : 768px) {
+    .container{ flex-direction: column;}
+    .main-content,
+    .sidebar{
+        width: 100%;
+}
+}
+   </style>
+</head>
+<body> 
+    <header>
+    <h1>Belajar Pemrograman</h1>
+    <p>Profile Virtual Youtuber</p>
+    <img style="width: 200PX; height: 250px;" src="https://static.wikia.nocookie.net/virtualyoutuber/images/5/53/Bonnivier_Pranaja_Portrait.png/revision/latest?cb=20210704024726&path-prefix=id">
+</header>
+<nav>
+    <a href="https://www.youtube.com/@BonnivierPranaja">Channel Youtube</a>
+    <a href="twitter.com/Bonnivier_2434">Akun Twitter</a>
+    <a href="web.facebook.com/BonnivierPranaja">Akun Facebook</a>
+</nav>
+<div class="Container">
+    <div class="main-content">
+        <h2>PROFILE BONNIVIER PRANAJA</h2>
+        <p>
+            Nama: Bonnivier Pranaja <br>
+            Nama panggilan: Bonni, Bobon<br>
+            Tanggal lahir: 21 September<br>
+            Tanggal debut: 08 Agustus 2020<br>
+        </p>
+    </div>
+    <div class="sidebar">
+        <h3>vtuber Satu Angkatan </h3>
+        <ul>
+            <li>Siska Leontyne</li>
+            <li>Etna Crimson</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

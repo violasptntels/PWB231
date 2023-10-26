@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style dan Script</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: white;
+      }
+      body {
+        background: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        min-height: 100vh;
+      }
+      button {
+        background: yellow;
+        color: black;
+        min-width: 100px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Rock Paper Sciccors</h1>
+
+    <div>
+      <button>Rock</button>
+      <button>Paper</button>
+      <button>Scissors</button>
+    </div>
+    <div id="result"></div>
+    <script>
+      const result = document.getElementById("result");
+      const players = document.querySelectorAll("button");
+
+      players.forEach((player) => {
+        player.addEventListener("click", (e) => {
+          result.textContent = game(e.target.textContent, getComputerChoice());
+        });
+      });
+
+      function game(player, computer) {
+        if (player == computer) {
+          return "It's a tie";
+        } else if (
+          (player == "Rock" && computer == "Scissors") ||
+          (player == "Scissors" && computer == "Paper") ||
+          (player == "Paper" && computer == "Rock")
+        ) {
+          return "You Win!";
+        } else {
+          return "You Lose!";
+        }
+      }
+      function getComputerChoice() {
+        const options = ["Rock", "Paper", "Scissors"];
+        return options[Math.floor(Math.random() * options.length)];
+      }
+    </script>
+  </body>
+</html>
