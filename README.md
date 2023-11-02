@@ -11,37 +11,48 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 # Data Nilai
 | NPM | Nama | Tugas 1 | Tugas 2|
 | -------- | -------- | -------- | -------- |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
-| 8126381238123 | AKu yang dulu | | |
+| 714230001 | Viola Septianti Elsiana | | |
+| 714230027 | Muhamad Haekal Syukur | | |
+| 714230034 | Sarah Yohana | | |
+| 714230036 | Muhamad Agung Ihsannudin | | |
+| 714230037 | Muhamad Saladin Eka Septian | | |
+| 714230038 | Reyhan Dwiyan Nugraha | | |
+| 714230044 | Mochammad Fadhail Fijratullah | | |
+| 714230047 | Dina Oktafiani | | |
+| 714230051 | Indra Agustin | | |
+| 714230053 | Ahmad Lahay Mahendra | | |
+| 714230054 | Lusia Barek Lawe | | |
+| 714230055 | Muhammad Hisyam Najwan | | |
+| 714230056 | Raihan Aditya Hermawan | | |
+| 714230057 | Muhammad Hilmi Romadoni | | |
+| 714230058 | Muhammad Okta Toriq | | |
+| 714230059 | Moch Restu Agis Burhanudin | | |
+| 714230060 | Muhammad Ferdy Leoza | | |
+| 714230061 | Iqbal Herlambang | | |
+| 714230062 | Rizqi Iqmal Fauzan | | |
+| 714230063 | Fardhan Raihan Daswara | | |
+| 714230064 | A.M. Faraziftan | | |
+| 714230065 | Dwi Puspa Firdaus | | |
+| 714230066 | Zahra Dia Handoko | | |
+| 714230068 | Aqila Zafira | | |
+| 714230069 | Aghni Hasna Mufida | | |
+| 714230070 | Muhammad Farid Al Mustofa | | |
 
 # Data Kelompok
 | Kelompok | Ketua | Anggota | 
 | -------- | -------- | -------- |
 | Kelompok 01 | M. Restu | Aghni H. |
 | Kelompok 02 | M. Haekal | Eka |
-| Kelompok 03 | Dina | Adit |
+| Kelompok 03 | Adit | Dina | Viola |
 | Kelompok 04 | Reyhan | Indra |
 | Kelompok 05 | M. Ferdy | Fardhan |
 | Kelompok 06 | M. Hilmi | Zahra |
 | Kelompok 07 | M. Fadhail | Aqila |
 | Kelompok 08 | Iqbal | Lusia |
 | Kelompok 09 | M. Agung | Dwi |
-| Kelompok 10 | Rizqi Iqmal | M. Okta |
+| Kelompok 10 | Rizqi Iqmal | M. Okta | Farid |
 | Kelompok 11 | M. Hisyam | Sarah |
-| Kelompok 12 | M. Farid | Viola |
-| Kelompok 13 | Ahmad L. | Jiftan |
+| Kelompok 12 | Ahmad L. | Jiftan |
 
 
 # Progress - Rencana Pembelajaran Semester (RPS) 
