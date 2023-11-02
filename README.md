@@ -39,20 +39,20 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | 714230070 | Muhammad Farid Al Mustofa | | |
 
 # Data Kelompok
-| Kelompok | Ketua | Anggota | 
-| -------- | -------- | -------- |
-| Kelompok 01 | M. Restu | Aghni H. |
-| Kelompok 02 | M. Haekal | Eka |
+| Kelompok | Ketua | Anggota | |
+| -------- | -------- | -------- | -------- |
+| Kelompok 01 | M. Restu | Aghni H. | |
+| Kelompok 02 | M. Haekal | Eka | |
 | Kelompok 03 | Adit | Dina | Viola |
-| Kelompok 04 | Reyhan | Indra |
-| Kelompok 05 | M. Ferdy | Fardhan |
-| Kelompok 06 | M. Hilmi | Zahra |
-| Kelompok 07 | M. Fadhail | Aqila |
-| Kelompok 08 | Iqbal | Lusia |
-| Kelompok 09 | M. Agung | Dwi |
+| Kelompok 04 | Reyhan | Indra | |
+| Kelompok 05 | M. Ferdy | Fardhan | |
+| Kelompok 06 | M. Hilmi | Zahra | |
+| Kelompok 07 | M. Fadhail | Aqila | |
+| Kelompok 08 | Iqbal | Lusia | |
+| Kelompok 09 | M. Agung | Dwi | |
 | Kelompok 10 | Rizqi Iqmal | M. Okta | Farid |
-| Kelompok 11 | M. Hisyam | Sarah |
-| Kelompok 12 | Ahmad L. | Jiftan |
+| Kelompok 11 | M. Hisyam | Sarah | |
+| Kelompok 12 | Ahmad L. | Jiftan | |
 
 
 # Progress - Rencana Pembelajaran Semester (RPS) 
