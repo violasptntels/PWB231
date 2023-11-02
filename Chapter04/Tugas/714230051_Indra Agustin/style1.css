@@ -1,0 +1,74 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("images/bg\ image1.jpg") no-repeat center center fixed;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.274);
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  height: 35px;
+}
+nav div img {
+  width: 40px;
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe Ui", sans-serif;
+  color: black;
+  font-weight: 600;
+  padding: 8px 0;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(255, 68, 0, 0);
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid black;
+  color: orangered;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.712);
+}
+span {
+  color: rgba(0, 83, 0, 0.829);
+}
+p {
+  font-size: large;
+  margin-top: 10px;
+  color: rgba(0, 83, 0, 0.829);
+  font-weight: 900;
+}
+img {
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  gap: 10rem;
+  transition: all 600ms ease;
+  display: flex;
+  margin: auto;
+
+}
+img:hover {
+  transform: scale(1.25);
+}
+.foto-img {
+  width: 400px;
+  background-color: green;
+}
