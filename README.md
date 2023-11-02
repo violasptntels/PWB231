@@ -29,7 +29,19 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 # Data Kelompok
 | Kelompok | Ketua | Anggota | 
 | -------- | -------- | -------- |
-| Kelompok 01 | Aku | Kamu |
+| Kelompok 01 | M. Restu | Aghni H. |
+| Kelompok 02 | M. Haekal | Eka |
+| Kelompok 03 | Dina | Adit |
+| Kelompok 04 | Reyhan | Indra |
+| Kelompok 05 | M. Ferdy | Fardhan |
+| Kelompok 06 | M. Hilmi | Zahra |
+| Kelompok 07 | M. Fadhail | Aqila |
+| Kelompok 08 | Iqbal | Lusia |
+| Kelompok 09 | M. Agung | Dwi |
+| Kelompok 10 | Rizqi Iqmal | M. Okta |
+| Kelompok 11 | M. Hisyam | Sarah |
+| Kelompok 12 | M. Farid | Viola |
+| Kelompok 13 | Ahmad L. | Jiftan |
 
 
 # Progress - Rencana Pembelajaran Semester (RPS) 
