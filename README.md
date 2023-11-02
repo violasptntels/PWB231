@@ -11,12 +11,25 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 # Data Nilai
 | NPM | Nama | Tugas 1 | Tugas 2|
 | -------- | -------- | -------- | -------- |
-| npm | isi disini | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
+| 8126381238123 | AKu yang dulu | | |
 
 # Data Kelompok
 | Kelompok | Ketua | Anggota | 
 | -------- | -------- | -------- |
-| Kelompok 01 |  |  |
+| Kelompok 01 | Aku | Kamu |
 
 
 # Progress - Rencana Pembelajaran Semester (RPS) 
