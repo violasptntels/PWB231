@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>alert restu</title>
 </head>
 <body>
+    <button onclick="myfunction()">coba disini</button>
+    <script>
+        function myfunction() {
+        alert("hallo brow");
+    }
+    function hitung() {
+            var angka1 = parseFloat(document.getElementById('angka1').value);
+            var angka2 = parseFloat(document.getElementById('angka2').value);
+            var operasi = document.getElementById('operasi').value;
+
+            var hasil;
+
+            switch (operasi) {
+                case '+':
+                    hasil = angka1 + angka2;
+                    break;
+                case '-':
+                    hasil = angka1 - angka2;
+                    break;
+                case '*':
+                    hasil = angka1 * angka2;
+                    break;
+                case '/':
+                    hasil = angka1 / angka2;
+                    break;
+                default:
+                    alert("Operasi tidak valid!");
+                    return;
+            }
+
+            alert("Hasil: " + hasil);
+        }
+        
+    </script>
+
+        <label for="angka1">Angka Pertama:</label>
+        <input type="text" id="angka1"><br>
+    
+        <label for="operasi">Operasi:</label>
+        <select id="operasi">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br>
+    
+        <label for="angka2">Angka Kedua:</label>
+        <input type="text" id="angka2"><br>
+    
+        <button onclick="hitung()">Hitung</button>
     
 </body>
 </html>
