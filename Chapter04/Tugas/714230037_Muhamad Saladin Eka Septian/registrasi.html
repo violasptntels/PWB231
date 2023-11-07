@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        background-color: rgb(33, 33, 33);
+        color: white;
+        box-sizing: border-box;
+        padding: 40px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        width: 400px;
+        gap: 10px;
+      }
+      input,
+      button {
+        padding: 10px 15px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 8px;
+      }
+      button {
+        margin-top: 10px;
+        border-radius: 30px;
+        cursor: grab;
+      }
+      p {
+        font-size: 14px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body class="header">
+    <form action="./confirmation.html">
+      <div>
+        <h2>Registrasi</h2>
+        <p>
+          Bersiaplah untuk menyusuri gelombang kekacauan - dapatkan akses
+          masuknya sekarang!
+        </p>
+      </div>
+      <label for="username">Username</label>
+      <input
+        type="text"
+        id="username"
+        placeholder="Masukan username kamu"
+        required
+      />
+      <label for="email">Email</label>
+      <input
+        name="email"
+        type="email"
+        id="email"
+        placeholder="Masukan email kamu"
+        required
+      />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="Masukan password kamu"
+        required
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
