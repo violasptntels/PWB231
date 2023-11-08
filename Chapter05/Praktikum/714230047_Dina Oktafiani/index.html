@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Website dengan Tailwind</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="container min-h-screen bg-[url('image/image.png')] bg-center bg-cover px-28 py-5 relative"
+    >
+      <nav class="flex items-center">
+        <img
+          src="image/logo (1).png"
+          alt="logonyaini"
+          class="w-40 cursor-pointer"
+        />
+
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Contact</a>
+          </li>
+        </ul>
+        <img src="image/cart (1).png" alt="keranjang" class="w-8 cursor-pointer" />
+      </nav>
+
+      <div class="text-white mt-48">
+        <h1 class="text-6xl font-semibold leading-normal">
+          Belajar Ngoding Cepat<br>
+           <span class="font-light">Tailwindcss 30 Menit saja</span>
+        </h1>
+        <p>
+            Tailwind CSS adalah kerangka kerja (framework) CSS yang di dalamnya terdapat<br> sekumpulan utility classes untuk membangun antarmuka kustom dengan cepat.<br>Tailwind CSS berbeda dengan kerangka kerja CSS seperti Bootstrap, Bulma,<br> atau Foundation, karena Tailwind CSS bukan sebuah UI Framework.
+        </p>
+
+        <div class="mt-10">
+          <a
+            href="https://eng.nauv.al/mempelajari-tailwindcss-dalam-30-menit-673742056e0c"
+            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+            >Mari Belajar</a
+          >
+          <a href="https://youtu.be/z3slaXqmkT0?si=x_fBj3uXXJM4dcOt">Tonton Videonya <span class="text-lg inline-block rotate-90">&#10148</span></a>
+        </div>
+
+      </div>
+      <img src="image/programmer.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20 alt="">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Get in touch</title>
+  </head>
+  <body>
+    <div class="grid md:grid-cols-2">
+      <div
+        class="hidden md:block bg-cover bg-center bg-[url(./imgs/bg2.jpg)]"
+      ></div>
+
+      <div
+        class="flex flex-col justify-center h-screen px-12 text-white bg-neutral-900"
+      >
+        <h1 class="mb-2 text-3xl">Get in touch</h1>
+        <p class="mb-4 text-sm">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          debitis vero omnis suscipit temporibus corrupti!
+        </p>
+
+        <form action="./index.html" class="grid grid-cols-2 gap-4">
+          <div class="flex flex-col gap-2">
+            <label for="name" class="text-base">Name</label>
+            <input
+              type="text"
+              id="name"
+              class="p-2 text-xs bg-transparent border border-amber-900 focus:outline-none focus:border focus:border-amber-700 focus:bg-transparent"
+            />
+          </div>
+          <div class="flex flex-col gap-2">
+            <label for="email" class="text-base">Email</label>
+            <input
+              type="text"
+              id="email"
+              class="p-2 text-xs bg-transparent border border-amber-900 focus:outline-none focus:border focus:border-amber-700 focus:bg-transparent"
+            />
+          </div>
+          <div class="flex flex-col col-span-2 gap-2">
+            <label for="subject" class="text-base">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              class="p-2 text-xs bg-transparent border border-amber-900 focus:outline-none focus:border focus:border-amber-700 focus:bg-transparent"
+            />
+          </div>
+          <div class="flex flex-col col-span-2 gap-2">
+            <label for="message" class="text-base">Message</label>
+            <textarea
+              id="message"
+              rows="3"
+              class="p-2 text-xs bg-transparent border border-amber-900 focus:outline-none focus:border focus:border-amber-700 focus:bg-transparent"
+            ></textarea>
+          </div>
+          <button
+            class="col-span-2 py-4 border border-amber-600 hover:bg-amber-800"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
