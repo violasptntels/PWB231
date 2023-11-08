@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Website dengan Tailwind</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="container min-h-screen bg-[url('image/image.png')] bg-center bg-cover px-28 py-5 relative"
+    >
+      <nav class="flex items-center">
+        <img
+          src="image/logo (1).png"
+          alt="logonyaini"
+          class="w-40 cursor-pointer"
+        />
+
+        <ul class="flex-1 text-center">
+          <li class="inline-block px-5 list-none">
+            <a href="#" class="px-2 text-white no-underline">Home</a>
+          </li>
+          <li class="inline-block px-5 list-none">
+            <a href="#" class="px-2 text-white no-underline">About</a>
+          </li>
+          <li class="inline-block px-5 list-none">
+            <a href="feature.html" class="px-2 text-white no-underline">Features</a>
+          </li>
+          <li class="inline-block px-5 list-none">
+            <a href="#" class="px-2 text-white no-underline">Contact</a>
+          </li>
+        </ul>
+        <img src="image/cart (1).png" alt="keranjang" class="w-8 cursor-pointer" />
+      </nav>
+
+      <div class="mt-48 text-white">
+        <h1 class="text-6xl font-semibold leading-normal">
+          Belajar Ngoding Cepat<br> 
+           <span class="font-light">Tailwindcss 30 Menit saja</span>
+        </h1>
+        <p id="text">
+            Tailwind CSS adalah kerangka kerja (framework) CSS yang di dalamnya terdapat<br> sekumpulan utility classes untuk membangun antarmuka kustom dengan cepat.<br>Tailwind CSS berbeda dengan kerangka kerja CSS seperti Bootstrap, Bulma,<br> atau Foundation, karena Tailwind CSS bukan sebuah UI Framework. <br>Masukkan kode "MASSAPODDA" untuk mendapatkan diskon sebesar 50%.
+        </p>
+
+        <div class="mt-10">
+          <button
+            id="btn"
+            class="inline-block px-8 py-3 mr-4 font-medium duration-300 bg-yellow-300 border border-transparent rounded-3xl hover:bg-transparant hover:border-yellow-300 hover:text-white hover:border"
+            >Mari Belajar</button
+          >
+          <a href="https://youtu.be/z3slaXqmkT0?si=x_fBj3uXXJM4dcOt">Tonton Videonya <span class="inline-block text-lg rotate-90">&#10148</span></a>
+        </div>
+
+      </div>
+      <img id="img" src="image/programmer.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20 alt="">
+    </div>
+    <script src="./script.js"></script>
+  </body>
+
+  
+</html>
