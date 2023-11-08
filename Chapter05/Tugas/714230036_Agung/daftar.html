@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <title>Agung Web</title>
+</head>
+<body class="bg-center bg-cover flex items-center justify-center min-h-screen" style="background-image: url('spooky-halloween-wallpaper-with-pumpkin-and-old-house-free-photo.jpg');">
+    <section class="relative max-w-md bg-transparent border-2 border-white/50 rounded-2xl bg-blur-12 flex justify-center items-center p-8">
+        <form class="w-full">
+            <h1 class="text-white text-2xl mb-4 text-center">Register for Halloween</h1>
+            <div class="mb-6">
+                <label for="name" class="text-white text-lg">Nama</label>
+                <div class="relative">
+                    <input type="text" id="name" required class="w-full bg-transparent border-b-2 border-white/50 text-white text-lg focus:outline-none focus:border-blue-500" />
+                </div>
+            </div>
+            <div class="mb-6">
+                <label for="email" class="text-white text-lg">Email</label>
+                <div class="relative">
+                    <input type="email" id="email" required class="w-full bg-transparent border-b-2 border-white/50 text-white text-lg focus:outline-none focus:border-blue-500" />
+                </div>
+            </div>
+            <div class="mb-6">
+                <label for="password" class="text-white text-lg">Password</label>
+                <div class="relative">
+                    <input type="password" id="password" required class="w-full bg-transparent border-b-2 border-white/50 text-white text-lg focus:outline-none focus:border-blue-500" />
+                </div>
+            </div>
+            <button class="w-full h-10 bg-white text-lg text-blue-500 rounded-full hover:bg-white/50 transition duration-400">Register</button>
+            <div class="mt-4 text-white text-sm text-center">
+                <p>Sudah punya akun? <a href="#" class="font-semibold hover:underline">Login</a></p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
