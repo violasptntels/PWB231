@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum Tailwind</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- background -->
+    <section class="flex flex-col min-h-screen bg-[url('img/background.png')] bg-center bg-cover relative">
+    <div 
+    class="px-20 py-5"
+    >
+      <!-- logo -->
+      <nav class="flex items-center">
+        <img
+          src="img/logo.png"
+          alt="logo86"
+          class="w-40 cursor-pointer"
+        />
+        <ul class="flex-1 text-right">
+            <li class="list-none inline-block px-5">
+                <a href="index.html" class="text-black px-2 font-semibold hover:underline">About</a>
+            </li>
+            <li class="list-none inline-block px-5">
+                <a href="#" class="text-black px-2 font-semibold hover:underline">Spesifikasi</a>
+            </li>
+            <li class="list-none inline-block px-5 font-semibold hover:underline">
+                <a href="#" class="text-black px-2">Lainnya</a>
+            </li>
+        </ul>
+      </nav>
+
+        <!-- content -->
+        <div class="text-black mt-11 pt-10">
+            <h1 class="text-6xl font-semibold leading-normal">
+              TOYOTA GT-86
+              <br>
+               <span class="font-light"></span>
+            </h1>
+            <p class="font-mono max-w-prose">
+                Toyota 86 secara resmi diperkenalkan pada Tokyo Motor Show tahun 2011 mulai dijual pada tahun 2012. 
+                <br>
+                Mobil ini menggunakan mesin 2.0 liter dengan konfigurasi Boxer yang diberi kode Toyota 4U-GSE atau kode Subaru FA20. 
+                <br>
+                Transmisi yang tersedia adalah 6 speed manual dan 6 speed automatic
+            </p>
+        </div>
+
+        <div class="mt-10 pt-11">
+            <a
+              href="https://id.wikipedia.org/wiki/Toyota_86"
+              class="bg-gray-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-black hover:text-white duration-300 hover:border border border-transparent"
+              >Selengkapnya</a
+            >
+            <a href="https://autocatalogarchive.com/wp-content/uploads/2019/05/Toyota-GT86-2013-UK.pdf">Lihat PDF <span class="text-lg inline-block rotate-90"></a>
+          </div>
+
+    <div>
+    <img src="img/gt86.png" 
+    class="xl:w-1/2 xl:absolute bottom-0 right-20 alt="" />
+  </div>
+  </section>
+  </body>
+</html>
