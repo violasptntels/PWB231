@@ -1,0 +1,11 @@
+.showcase-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: calc(100% + 0px);
+    margin-bottom: 20px;
+}
+.showcase-item {
+    align-content: center;
+    margin: auto;
+}
