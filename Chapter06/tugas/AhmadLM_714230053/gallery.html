@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="justify-center items-center min-h-screen  bg-center bg-cover bg-repeat px-24 relative" style="background-image: url(assets/image8.jpg)">
+        <nav class="flex items-center">
+            <img src="assets/menu.png" alt="menu" class="w-10 cursor-pointer">
+            <ul class="flex-auto text-center">
+                <li class="list-none inline-block px-5">
+                    <a href="calc.html" class="no-underline text-black px-2">K/D Calculator</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="hover:scale-25 no-underline text-black px-2">Profile</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a href="index.html" class="no-underline text-black px-2">Home</a>
+                </li>
+            </ul>
+            <img src="assets/logo.webp" alt="logo" class="w-40 cursor pointer">
+        </nav>
+        <div>
+            <section class="flex">
+                <div class="showcase-content-wrapper  ">
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image1.png" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image02.png" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image3.png" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image4.jpg" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image5.png" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image6.png" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image7.jpg" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image8.jpg" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+                    <div id="img-viewer">
+                        <span class="close" onclick="close_model()">&times;</span>
+                            <img class="modal-content" id="full-image">
+                    </div>
+                    <div class="img-container">
+                        <img src="assets/image9.png" width="300" class="img-source">
+                        <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5gcBDC8iyDNppwAAAURJREFUWMPtmLFSAjEURY+U9jDwJfyIpY2FLa2lv2HnL1jaysIMDFRQ8AeW2ug4sci1YJfBYdd9gSysw94mszNJ3r152ZebIO8eYDKRnAPJ0A4gSYgMyd3DeGzmkfJuccEN9PsBsb5Aii0AeAfvzb0z3sUKvy9htZI+X6DXq4Dwn5CXh3Zbcq+wWBTxzBPwBsvlzrf/uIZOp3ri6ziFPEoFFCmvOCOGuFfQ7ZYKCJgwihAr8U3/HAEDSBLJ3cJwGJzSPbfWvvOW8T1kpUwZCV3x6ChcOe+eYDYrHS/3DPP5qYrErpCUuDWlmy2QjTs28QYNGqyxVY2yqmJyqZK7g9HoZD/xvy2jsQ6g6BZl6yKRuwVqaCV+8z3AzEU58kMzEsNOV+JVrELO4EJzbHcYmhGzgLq/SqRtC/EI02lArHq8SqS8fwCukS3bLvmYtAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNy0wMVQxMjo0NzozNCswMDowMBMMqp4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDctMDFUMTI6NDc6MzQrMDA6MDBiURIiAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTA3LTAxVDEyOjQ3OjM0KzAwOjAwNUQz/QAAAABJRU5ErkJggg==" class="expand-icon" onclick="full_view(this);">
+                    </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
