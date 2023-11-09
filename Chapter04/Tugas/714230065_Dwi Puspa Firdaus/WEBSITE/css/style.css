@@ -1,0 +1,30 @@
+
+.sec{
+	margin-bottom: 50px;
+}
+.about-content{
+	min-height:300px; background:orange;
+}
+#logo{
+	background-color: white;
+}
+#menu{
+	background-color: white;
+}
+.thamble{
+	color: white;
+	min-height: 500px;
+}
+.thamble img{
+	min-height:500px;
+	width: 100%;
+}
+.footer-style{
+	padding: 15px;
+	height: 50px;
+	background:black;
+	  color:white; 
+}
+footer{
+	
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChillHousels</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html{
+            overflow-x: hidden;
+        }
+        body{
+            background-color: #FBF9FA;
+        }
+        #check:checked ~ ul {
+            left: 0;
+        }
+    
+        .title{
+            font-size: 2.5em;
+            font-weight: 500;
+            line-height: 1.3em;
+            letter-spacing: -0.125em;
+        }
+    
+    </style>
+</head>
+<body>
+    <nav class="bg-slate-950 h-20 w-[100%] overflow-hidden mr-0">
+        <input type="checkbox" id="check" hidden>
+    <label for="check" class="float-right text-white text-3xl leading-[80px] mr-10 lg:hidden">
+        <i class="fas fa-bars"></i>
+    </label>
+        <label class="text-white leading-[80px] pl-12 text-3xl md:text-4xl md:leading-[80px] md:pl-24">ChillHousels</label>
+        <ul class="float-right text-white mr-10 lg:flex leading-[80px] space-x-4 uppercase rounded fixed lg:relative h-[100vh] lg:h-0 w-[100%] lg:w-fit top-20 lg:top-0 lg:left-0 transition-all duration-300 lg:transition-none  text-center bg-slate-900 left-[-100]">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.youtube.com/@NadiaOmaraa">about</a></li>
+            <li><a href="https://www.instagram.com/violasptntels/">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- blog section started -->
+    <section id="main" class="main-card bg-[url(data:image/jpeg;base64,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)]">
+        <div class="recent-post container">
+          <div class="post-padding pt-20 pb-12 md:pt-32">
+            <div class="all-contents md:flex">
+                <div class="right-content text-white md:pl-28 pl-8 overflow-hidden">
+                    <div class="post-writer flex item-center space-x-3">
+                        <img class="w-8 h-8 rounded-full" src="./asset/horror background.jpg" alt="">
+                        <p class="text-sm">Viola Septianti Elsiana</p>
+                    </div>
+                    <div class="titles py-8 md:text-2xl w-[90] md:w-[80%] hover:underline cursor-pointer">
+                        <h3 class="title">Bedtime Horror Stories</h3>
+                    </div>
+                    <div class="time-date flex item-center md:space-x-8 text-xs space-x-4">
+                        <div class="topic flex space-x-4 py-2">
+                            <p class="bg-red-800 py-1 px-3 text-xsm
+                            rounded-full tracking-wider"><a href="https://www.youtube.com/@sarawijayanto">Horror Story</p>
+                        </div>
+                        <div class="date flex space-x-3 py-2">
+                            <p class="text-xsm tracking-wider">november 01, 2023</p>
+                            <p class="text-xsm tracking-wider">15 minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-content flex md:h-[400px] h-fit space-x-4 md:space-x-0 overflow-hidden md:ml-20 mt-6 md:block">
+                        <img class="h-[8em] w-[24em] md:w-[36em] md:h-[16em]
+                        rounded-sm md:my-4" src="./asset/horror background.jpg" alt="">
+                </div>
+            </div>
+          </div>  
+        </div>
+    </section>
+
+    
+</body>
+</html>
