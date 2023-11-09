@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: #fafbf9;
+}
+a {
+  text-decoration: none;
+}
+
+/* ===========================================  */
+
+.header {
+  /* image source: https://giphy.com/gifs/yungblud-alternative-ozzy-osbourne-thefuneral-ylKZc6asHyf2Rga6id */
+  background: #646464;
+  background-image: url("./img/background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: white;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+.navbar ul {
+  display: flex;
+  margin-left: auto;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.navbar a {
+  color: white;
+}
+.hero {
+  position: relative;
+  top: 50%;
+  padding: 0 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero .image {
+  max-width: 500px;
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+img {
+  max-width: 100%;
+}
+.hero h1 {
+  font-size: 48px;
+}
+
+/* ===========================================  */
+
+.about {
+  background-color: #777169;
+  padding: 40px;
+  display: flex;
+  color: #fff;
+  font-size: 18px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.about .title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.about .desc {
+  width: 45ch;
+  flex-grow: 1;
+}
+.about p {
+  margin-bottom: 8px;
+}
+.about .detail {
+  gap: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+/* ===========================================  */
+
+.register {
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.register button {
+  background-color: transparent;
+  border-radius: 40px;
+  padding: 15px 50px;
+  margin-top: 20px;
+  align-self: center;
+}
+,
+.register h2 {
+  font-size: 32px;
+}
+.register button {
+  font-size: 24px;
+  cursor: grab;
+}
+
+/* ===========================================  */
+.line-up {
+  background-color: #000000;
+  color: #cccccc;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.line-up h2 {
+  font-size: 32px;
+  color: #fff;
+}
+.line-up .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+.band {
+  margin-bottom: 20px;
+}
+.band .img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.band .name {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: bolder;
+}
