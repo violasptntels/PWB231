@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Website dengan Tailwind</title>
+    <!-- Jangan lupa tambahkan koneksi HTML ke tailwind -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="flex flex-col min-h-screen bg-[url('img/image.png')] bg-center bg-cover relative">
+    <div class="px-28 py-5">
+        <nav class="flex items-center">
+            <img src="img/logo.png" alt="logonyaini" class="w-40 cursor-pointer"/>
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="no-underline text-white px-2">Home</a></li>
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="no-underline text-white px-2">About</a></li>
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="no-underline text-white px-2">Features</a></li>
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="no-underline text-white px-2">Contack</a></li>
+                </ul>
+                <img src="img/cart.png" alt="keranjang" class="w-8 cursor-pointer"/>
+                </nav>
+                <div class="text-white mt-48">
+                    <h1 class="text-6xl font-semibold leading-normal">
+                        Belajar Cepat <br />
+                        Pemograman Website Tailwind Bersama Agung<br />
+                        <span class="font-light">1 Jam Saja</span>
+                        </h1>
+                        <p id="paragraf">
+                            Website adalah serangkaian halaman web berisi informasi yang terhubung satu sama lain dan diakses <br> melalui internet. 
+                            Pada era digital saat ini, website telah menjadi salah satu elemen penting di dalam kehidupan <br> manusia.
+                        </p>
+                        <div class="mt-11">
+                            <button onclick="myFunction()" class="bg-green-700 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent bg-green-700 hover:text-white duration-300 hover:border border border-transparent">Mari Belajar</button>
+                            <a href="#">Download Modulnya</a>
+                        </div>
+                       <img id="gambar" src="img/programmer.png" class="w-full xl:w-1/4 xl:absolute bottom-0 right-20">
+                </div> 
+    </div>
+</section>
+    <div id="calculator" class="flex justify-center items-center h-screen">
+        <div class="bg-white p-4 rounded shadow-lg">
+            <div class="grid grid-cols-4 gap-4">
+                <input type="text" id="result" class="col-span-4 p-2 text-right text-2xl border rounded">
+                <button class="col-span-3 p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="clearResult()">C</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('1')">1</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('2')">2</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('3')">3</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('4')">4</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('5')">5</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('6')">6</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('7')">7</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('8')">8</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('9')">9</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('0')">0</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('+')">+</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('-')">-</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('*')">*</button>
+                <button class="p-2 text-xl bg-gray-300 hover:bg-gray-400 rounded" onclick="appendToResult('/')">/</button>
+                <button class="col-span-2 p-2 text-xl bg-blue-500 hover:bg-blue-600 text-white rounded" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>
