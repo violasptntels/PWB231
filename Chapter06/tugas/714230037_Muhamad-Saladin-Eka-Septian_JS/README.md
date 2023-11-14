@@ -1,0 +1,3 @@
+### Ini ngelanjutin praktikum yang chapter05. webnya tentang kamera kodak
+
+Saya ngedit sedikit class tailwindnya terus nambhin beberpa **id** diberapa tag buat tar dipanggil di [script.js](./script.js) yang didalemnya saya bikin custom **randInt** function buat shorthand bikin random int aja, terus saya ngasih event listener di button yang kalo diklik tar ngasih promt yang didalemnya ada oertanyaan aritmatika yang didapet dari randInt function sebelumnya terus kalo user ngejawab pertanyaan nya bener tar kalimat header, paragraph sama gambar di hero section nya berubah
