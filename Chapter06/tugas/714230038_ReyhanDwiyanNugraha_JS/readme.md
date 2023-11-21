@@ -1,0 +1,1 @@
+- saya menambahkan fungsi button untuk mengeluarkan promt berupa pertanyaan, jika pertanyaan dijawab dengan benar maka gambar dan text akan berubah.
