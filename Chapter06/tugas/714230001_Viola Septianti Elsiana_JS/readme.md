@@ -1,0 +1,2 @@
+lanjutan dari pratikum 5, didalamnya terdapat javascript buat panggil button terus dikasih EventListener jika tombolnya di klik akan merubah paragraf dan gambar.
+Di file mari belajar saya tambahkan logic buat menghitung harga dan menampilkan pesan kepada user melalui alert.

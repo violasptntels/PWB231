@@ -101,7 +101,7 @@ Deskripsinya : Inputan terakhir itu akan error karena salah menggunakan syntax
 3. menggunakan HTML dan CSS Tailwind
 4. Aritmatik, Syntax, Statement, Image Change, Button, Penggantian Paragraf dari Button
 5. script.js eksternal
-6. Buatkan Readme.md sesuai Studi kasus masing-masing
+6. Buatkan Readme.md sesuai Studi kasus masing-masing 
 
 
 
