@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web restu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container min-h-screen bg-[url('background.jpeg')] bg-center bg-repeat bg-[leght:300px_200px] px-28 py-5 relative">
+        <nav class="flex items-center">
+            <img src="logo.png" alt="logo" class="w-40 cursor-pointer">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5"><a href="" class="no-underline text-white px-2">home</a></li>
+                <li class="list-none inline-block px-5"><a href="about.html" class="no-underline text-white px-2">about</a></li>
+                <li class="list-none inline-block px-5"><button onclick="Statement()" class="no-underline text-white px-2">product</button></li>
+                <li class="list-none inline-block px-5"><button onclick="AritmatikaSyntax()" class="no-underline text-white px-2">ready stock</button></li>
+            </ul>
+            <img src="cart.png" alt="" class="w-20 cursor-pointer">
+        </nav>
+        <div class="text-white mt-28">
+            <h1 class="text-5xl font-semibold leading-normal">RAVISSANT.</h1>
+            <p id="caption">pengen baju berkualitas tapi murah? Beli dong baju ravissant dijamin bahannya berkualitas.</p>
+            <p id="variable"></p>
+            <div class="mt-10">
+                <button id="btn" onclick="ParagrafChangeImageChange()" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-black-300 hover:text-black duration-300 hover:border border border-transparent">click here</button>
+                    <a href="https://www.instagram.com/ravissant.club/?hl=en" class="bg-purple-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-black-300 hover:text-black duration-300 hover:border border border-transparent">beli disini!!</a>
+            </div>
+        </div>
+        <img id="image" src="baju.png" alt="" class="w-full xl:w-1/4 xl:absolute bottom-0 right-0">
+    </div>
+</body>
+</html>
