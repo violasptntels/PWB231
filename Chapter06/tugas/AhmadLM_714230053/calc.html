@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="justify-center items-center h-screen bg-center bg-cover bg-repeat bg-fixed px-24 relative" style="background-image: url(assets/image6.png)">
+        <nav class="flex items-center">
+            <img src="assets/menu.png" alt="menu" class="w-10 cursor-pointer">
+            <ul class="flex-auto text-center">
+                <li class="list-none inline-block px-5">
+                    <a href="gallery.html" class="no-underline text-black px-2">Gallery</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="hover:scale-25 no-underline text-black px-2">Profile</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a href="index.html" class="no-underline text-black px-2">Home</a>
+                </li>
+            </ul>
+            <img src="assets/logo.webp" alt="logo" class="w-40 cursor pointer">
+        </nav>
+        <div>
+            <section class="container">
+                <form>
+                    Kills:
+                        <br>
+                    <input type="text" id="firstNumber" /><br>
+                    Deaths:
+                        <br>
+                    <input type="text" id="secondNumber" /><br>
+                    <br>
+                        <input class="bg-orange-400 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-black hover:text-black duration-300 hover:border border border-transparent" type="button" onClick="divideBy()" Value="Divide"/>
+                </form>
+                    <p class="">The Result is: <br>
+                        <span id="result" class="text-8xl bg-orange-400 rounded-8xl py-3 px-8 font-medium inline-block mr-4"></span>
+                    </p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

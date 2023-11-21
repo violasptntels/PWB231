@@ -1,0 +1,1 @@
+tailwind.config.js,cjs,mjs,ts

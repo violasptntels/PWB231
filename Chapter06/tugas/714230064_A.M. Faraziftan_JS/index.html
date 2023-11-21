@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Website Dengan Tailwind</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div
+      class="min-h-screen bg-[url('image.png')] bg-center bg-cover px-28 py-5 relative"
+    >
+      <nav class="flex items-center">
+        <img src="logo.png" alt="" class="w-40 cursor-pointer" />
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <button onclick="Statement()" class="no-underline text-white px-2">Pengguna</button>
+          </li>
+          <li class="list-none inline-block px-5">
+            <button onclick="AritmatikaSyntax()" class="no-underline text-white px-2">Coding</button>
+          </li>
+        </ul>
+        <img src="cart.png" alt="" class="w-8 cursor-pointer" />
+      </nav>
+      <div class="text-white mt-48">
+        <h1 class="text-6xl font-semibold leading-normal">
+          belajar cepat <br />
+          pemograman Website Tailwind
+          <span class="font-light">30 menit saja</span>
+        </h1>
+        <p id="desc">
+          Tailwind CSS adalah kerangka kerja CSS yang di dalamnya <br>terdapat sekumpulan utility classes untuk membangun antarmuka kustom dengan cepat.<br />Tailwind CSS berbeda dengan kerangka kerja CSS seperti Bootstrap, Bulma, atau Foundation,<br> karena Tailwind CSS bukan sebuah UI Framework.
+        </p>
+        <p id="variable"></p>
+        <div class="mt-10">
+          <button id="btn"onclick="Paragrafchangeimagechange()" class="bg-blue-600 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-blue-600 hover:text-white duration-300 hover:border border border-transparent">Lihatlah</button>
+          <a
+            href="#"
+            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border-t-transparent"
+          >
+            Mari Belajar</a
+          >
+          <a href="#">Download Modulnya</a>
+        </div>
+      </div>
+      <div class="block">
+        <img
+          src="programmer.png"
+          class="ml-auto max-w-md inset-y-auto"
+          style="margin-top: -260px"
+        />
+      </div>
+    </div>
+   
+    </div>
+  </body>
+</html>

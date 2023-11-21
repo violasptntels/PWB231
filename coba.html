@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Number: <input type="number" id="myNumber">
+
+<p>Click the button to increment the value of the number field by 5 (each time you click).</p>
+
+<button onclick="increase()">+</button>
+
+
+<button onclick="decrease()">-</button>
+
+<p><strong>Note:</strong> The stepUp() method is not supported by Internet Explorer.</p>
+
+<script>
+function increase() {
+  document.getElementById("myNumber").stepUp(1);
+}
+
+
+function decrease() {
+  document.getElementById("myNumber").stepDown(1);
+}
+</script>
+
+</body>
+</html>
