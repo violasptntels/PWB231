@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>membuat website dengan tailwind</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container min-h-screen bg-[url('asset/Image.png')] bg-center bg-cover px-28 py-5 relative">
+        <nav class="flex items-center">
+            <img src="asset/logo.png" alt="Logo" class="w-40 cursor-pointer"/>
+                <ul class="flex-1 text-center">
+                    <li class="list-none inline-block px-5">
+                        <a href="index.html" class="no-underline text-white px-2">home</a>
+                    </li>
+                    <li class="list-none inline-block px-5">
+                        <a href="https://sko.dev/artikel" class="no-underline text-white px-2">about</a>
+                    </li>
+                    <li class="list-none inline-block px-5">
+                        <a href="https://sko.dev/belajar/tailwind-css" class="no-underline text-white px-2">features</a>
+                    </li>
+                    <li class="list-none inline-block px-5">
+                        <a href="https://www.youtube.com/@sandhikagalihWPU" class="no-underline text-white px-2">contact</a>
+                    </li>
+                </ul>
+                <img src="asset/cart.png" alt="keranjang" class="w-8 cursor-pointer"/>
+            </nav>
+            <div class="text-white mt-48">
+                <h1 class="text-5xl font-semibold leading-normal">
+                    Belajar Pemoggraman <br />
+                    Website <br />
+                    <span class="font-light ">Tailwind 20 menit saja</span>
+                </h1>
+                <p id="text">
+                    Lorem ipsum dolor sit amet consectet adipisicing elit. <br />
+                     Beatae vitae voluptatem illo iure magni ut! praesaspernatur <br />
+                     est ipsam voluptatibus.
+                </p>
+
+                <div class="mt-10">
+                    <button><a
+                    href="mari belajar.html"
+                    class="bg-yellow-300 rounded-3xl py-3 px-8font-medium inline-block mr-4
+                    hover:bg-transparent hover:border-yellow-300 hover:border
+                    border border-transparent"
+                    >Mari Belajar</a>
+                    </button>
+                    <button><a 
+                    id="btn"
+                    class="bg-yellow-300 rounded-3xl py-3 px-8font-medium inline-block mr-4
+                    hover:bg-transparent hover:border-yellow-300 hover:border
+                    border border-transparent"
+                    >Opened</a>
+                    </button>
+                </div>
+            </div>
+            <img id="img" src="asset/programmer.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20 alt="">
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

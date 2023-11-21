@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GT-86</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- background -->
+    <section class="flex flex-col min-h-screen bg-[url('img/background.png')] bg-center bg-cover relative">
+    <div 
+    class="px-20 py-5"
+    >
+      <!-- logo -->
+      <nav class="flex items-center">
+        <img
+          src="img/logo.png"
+          alt="logo86"
+          class="w-40 cursor-pointer"
+        />
+        <ul class="flex-1 text-right hidden w-full md:block md:w-auto">
+            <li class="list-none inline-block px-5">
+                <a href="index.html" class="text-black px-2 font-semibold hover:underline">Sejarah</a>
+            </li>
+            <li class="list-none inline-block px-5">
+                <a href="#" class="text-black px-2 font-semibold hover:underline">Spesifikasi</a>
+            </li>
+            <li class="list-none inline-block px-5 font-semibold hover:underline">
+                <a href="#" class="text-black px-2">Lainnya</a>
+            </li>
+        </ul>
+      </nav>
+
+        <!-- content -->
+        <div class="text-black mt-11 pt-10">
+            <h1 class="text-6xl font-semibold leading-normal">
+              TOYOTA GT-86
+              <br>
+               <span class="font-light"></span>
+            </h1>
+            <p class="max-w-prose" id="p">
+                Toyota 86 secara resmi diperkenalkan pada Tokyo Motor Show tahun 2011 mulai dijual pada tahun 2012. 
+                <br>
+                Mobil ini menggunakan mesin 2.0 liter dengan konfigurasi Boxer yang diberi kode Toyota 4U-GSE atau kode Subaru FA20. 
+                <br>
+                Transmisi yang tersedia adalah 6 speed manual dan 6 speed automatic
+              </p>
+                <br>
+                <br>
+              <h2 class="text-4xl font-semibold leading-normal">Harga</h2>
+              <p class="max-w-prose">
+                <b>Toyota 86 2.0 V TRD Coupe (2016): Rp 590.000.000</b>
+            </p>
+            <br>
+              <p class="font-semibold text-2xl">Beli Disini</p>
+              <form name="frm-pin" method="post">
+              <input type="hidden" name="mode" value="PinRequest"/>
+              <label class="text-xl">Jumlah Mobil</label>
+              <select name="tot_pin_requested" onchange="calculateAmount (this.value)" required>
+              <option value="" disabled selected>Jumlah</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              </select>
+              </form>
+            <label class="text-xl">Total</label>
+            <div id="tot_amount"></div>
+
+
+        </div>
+
+        <div class="mt-10 pt-11">
+          <button onclick="change()" class="bg-gray-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparant hover:border-black hover:text-white duration-300 hover:border border border-transparent">Spesifikasi</button>
+          </div>
+
+    <div>
+    <img src="img/gt86.png" id="gambar" 
+    class="xl:w-1/2 xl:absolute bottom-0 right-20 alt="/>
+  </div>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  </body>
+</html>
