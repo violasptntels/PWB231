@@ -42,7 +42,7 @@
 ## Nilai Assesment
 | NPM | Nama | Link | Nilai |
 | -------- | -------- | -------- | -------- |
-| 714230001 | Viola Septianti Elsiana | https://violasptntels.github.io/assesment-viola/ | |
+| 714230001 | Viola Septianti Elsiana | https://violasptntels.github.io/assesment-viola/ | 85 |
 | 714230027 | Muhamad Haekal Syukur | https://haekalss.github.io/Kalls/ | |
 | 714230034 | Sarah Yohana | https://sarah110704.github.io/sarahh/ | |
 | 714230036 | Muhamad Agung Ihsannudin | https://agungbagoy.github.io/Asssesmen1-Agung/ | |
