@@ -64,7 +64,7 @@
 | 714230063 | Fardhan Raihan Daswara | https://fardhanrd.github.io/nyo/  | |
 | 714230064 | A.M. Faraziftan | https://faraziftan.github.io/assesment-Rajif/ | |
 | 714230065 | Dwi Puspa Firdaus | https://dwifirdaus08.github.io/REPOSIT-BARU/ | |
-| 714230066 | Zahra Dia Handoko | https://zahradh28.github.io/ZahraDiaH/ | |
+| 714230066 | Zahra Dia Handoko | https://zahradh28.github.io/ZahraDiaH/ | 100 |
 | 714230068 | Aqila Zafira | https://aqilazafira.github.io/aqila-zafira/ | |
 | 714230069 | Aghni Hasna Mufida | https://aghniihsn.github.io/language-course/ | |
 | 714230070 | Muhammad Farid Al Mustofa | | |
