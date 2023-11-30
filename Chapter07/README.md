@@ -59,7 +59,7 @@
 | 714230058 | Muhammad Okta Toriq | https://astheria23.github.io/sewaAudio/ | |
 | 714230059 | Moch Restu Agis Burhanudin | https://mrestuab.github.io/restu/ | |
 | 714230060 | Muhammad Ferdy Leoza | https://ferdyleoza.github.io/assesment-ferdy/ | 85 |
-| 714230061 | Iqbal Herlambang | https://qibal.github.io/asesmen-iqbal/ | |
+| 714230061 | Iqbal Herlambang | https://qibal.github.io/asesmen-iqbal/ |100|
 | 714230062 | Rizqi Iqmal Fauzan | https://rizqiiqmal.github.io/rizqiiqmal/ | |
 | 714230063 | Fardhan Raihan Daswara | https://fardhanrd.github.io/nyo/  |100 |
 | 714230064 | A.M. Faraziftan | https://faraziftan.github.io/assesment-Rajif/ | 85 |
