@@ -48,7 +48,7 @@
 | 714230036 | Muhamad Agung Ihsannudin | https://agungbagoy.github.io/Asssesmen1-Agung/ | 100 |
 | 714230037 | Muhamad Saladin Eka Septian | https://eka-septian.github.io/craft-hub/ | 100 |
 | 714230038 | Reyhan Dwiyan Nugraha | https://reyhandwiyan.github.io/reyhandwynn/ | |
-| 714230044 | Mochammad Fadhail Fijratullah | https://fadhail.github.io/xeroonstore/  | |
+| 714230044 | Mochammad Fadhail Fijratullah | https://fadhail.github.io/xeroonstore/  |100 |
 | 714230047 | Dina Oktafiani | https://cinnong.github.io/DinaOktafiani/ | |
 | 714230051 | Indra Agustin | https://indraagstin025.github.io/ASESMENTIndraagus/ | 100 |
 | 714230053 | Ahmad Lahay Mahendra | https://mobius0263.github.io/ahmadlm/ | |
