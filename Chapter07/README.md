@@ -51,7 +51,7 @@
 | 714230044 | Mochammad Fadhail Fijratullah | https://fadhail.github.io/xeroonstore/  |100 |
 | 714230047 | Dina Oktafiani | https://cinnong.github.io/DinaOktafiani/ |90|
 | 714230051 | Indra Agustin | https://indraagstin025.github.io/ASESMENTIndraagus/ | 100 |
-| 714230053 | Ahmad Lahay Mahendra | https://mobius0263.github.io/ahmadlm/ | |
+| 714230053 | Ahmad Lahay Mahendra | https://mobius0263.github.io/ahmadlm/ |90 |
 | 714230054 | Lusia Barek Lawe | https://lusia1301.github.io/lusia1B/ | 100 |
 | 714230055 | Muhammad Hisyam Najwan | https://hisyamsamam.github.io/syam/ |95 |
 | 714230056 | Raihan Aditya Hermawan | https://rexndlezero.github.io/ReyyDomain/ | 100 |
