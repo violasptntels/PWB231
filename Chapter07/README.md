@@ -54,7 +54,7 @@
 | 714230053 | Ahmad Lahay Mahendra | https://mobius0263.github.io/ahmadlm/ | |
 | 714230054 | Lusia Barek Lawe | https://lusia1301.github.io/lusia1B/ | 100 |
 | 714230055 | Muhammad Hisyam Najwan | https://hisyamsamam.github.io/syam/ | |
-| 714230056 | Raihan Aditya Hermawan | https://rexndlezero.github.io/ReyyDomain/ | |
+| 714230056 | Raihan Aditya Hermawan | https://rexndlezero.github.io/ReyyDomain/ | 100 |
 | 714230057 | Muhammad Hilmi Romadoni | https://hilmibotak.github.io/mhmd-hilmi/ | minggu depan |
 | 714230058 | Muhammad Okta Toriq | https://astheria23.github.io/sewaAudio/ | |
 | 714230059 | Moch Restu Agis Burhanudin | https://mrestuab.github.io/restu/ | |
