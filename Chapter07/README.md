@@ -47,7 +47,7 @@
 | 714230034 | Sarah Yohana | https://sarah110704.github.io/sarahh/ | 85 |
 | 714230036 | Muhamad Agung Ihsannudin | https://agungbagoy.github.io/Asssesmen1-Agung/ | 100 |
 | 714230037 | Muhamad Saladin Eka Septian | https://eka-septian.github.io/craft-hub/ | 100 |
-| 714230038 | Reyhan Dwiyan Nugraha | https://reyhandwiyan.github.io/reyhandwynn/ | |
+| 714230038 | Reyhan Dwiyan Nugraha | https://reyhandwiyan.github.io/reyhandwynn/ |75|
 | 714230044 | Mochammad Fadhail Fijratullah | https://fadhail.github.io/xeroonstore/  |100 |
 | 714230047 | Dina Oktafiani | https://cinnong.github.io/DinaOktafiani/ |90|
 | 714230051 | Indra Agustin | https://indraagstin025.github.io/ASESMENTIndraagus/ | 100 |
