@@ -1,0 +1,1 @@
+![screenshoot dari halaman utama](./imgs/home_screenshoot.png)

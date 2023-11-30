@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <section class="flex flex-col min-h-screen bg-[url('./assets/bgw.jpg')] bg-center bg-cover relative">
+    <div class="px-28 py-0">
+      <nav class="flex items-center">
+        <img src="./assets/Bakmie Ogez.png" alt="logobakmie" class="w-28 cursor-pointer" />
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="" class="no-underline">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="" class="no-underline">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="" class="no-underline">Menu</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="" class="no-underline">Contact</a>
+          </li>
+        </ul>
+        <img src="./assets/cart_files/cart.png" alt="keranjang" class="w-8 cursor-pointer" />
+      </nav>
+      <div>
+        <h1 class="text-6xl font-semibold leading-normal">
+          Bakmie Ogez <br />
+          Best <span class="font-light"> Noodle </span> In Town
+        </h1>
+        <p id="desc">
+          Selamat datang di Restoran Kami, tempat di mana kesenangan bakmie
+          sejati dimulai! Nikmati pengalaman kuliner yang tak terlupakan
+          dengan beragam pilihan bakmie segar dan lezat.
+        </p>
+
+        <div class="mt-10">
+          <button id="btn" onclick="myOrder()"
+            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-red-700 hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">
+            Mari Kemari
+          </button>
+          <a href="#">Buruan Cobain!</a>
+        </div>
+        <div id="aritmatika" class="bg-yellow-300 w-72 text-center mb-20 bg-center text-white rounded-3xl mt-10 pt-6">
+          <input id="porsi" type="number" class="text-red-200" placeholder="Pesan Berapa Porsi?"><br>
+          <button id="pesan" class="w-28 bg-red-700 mt-4 mb-4 rounded-3xl">Pesan!</button>
+
+        </div>
+        <div id="hasil" class="bg-yellow-300 w-72 text-center mb-36 bg-center text-white rounded-3xl ">
+          <h1> Total Pembayaran : <span id="bill"></span> <br>Pesanan Sedang Di Proses <br>
+            Mohon ditunggu ya
+            Terimakasih Sudah Memesan!
+          </h1>
+        </div>
+        <div class="pt-36">
+          <img id="mieimg" src="./assets/Noodle.png" class="w-72 lg:1/2 lg:absolute mt-5 bottom-0 right-20" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="/script.js"></script>
+</body>
+
+</html>

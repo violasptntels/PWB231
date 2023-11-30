@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Website dengan Tailwind</title>
+    <!-- Jangan lupa tambahkan koneksi HTML ke Tailwind -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Membuat class containernya disini-->
+    <section class="flex flex-col min-h-screen bg-[url('images/image.png')] bg-center bg-cover relative">
+      <div class="px-28 py-5">
+        <nav class="flex items-center">
+          <img src="images/logo.png" alt="logonyaini" class="w-40 cursor-pointer" />
+          <ul class="flex-1 text-center">
+            <li class="list-none inline-block px-5">
+              <a href="#" class="no-underline text-white px-2">Home</a>
+            </li>
+            <li class="list-none inline-block px-5">
+              <a href="#" class="no-underline text-white px-2">About</a>
+            </li>
+            <li class="list-none inline-block px-5">
+              <a href="#" class="no-underline text-white px-2">Features</a>
+            </li>
+            <li class="list-none inline-block px-5">
+              <a href="#" class="no-underline text-white px-2">Contact</a>
+            </li>
+          </ul>
+          <img src="images/cart.png" alt="keranjang" class="w-8 cursor-pointer" />
+        </nav>
+        <div class="text-white mt-48 z-10">
+          <h1 class="text-6xl font-semibold leading-normal">
+            Belajar Cepat <br />
+            Pemrograman <br> Website Tailwind
+            <span class="font-light"> <br> 15 Menit saja</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Ducimus, sequi quasi quos doloribus praesentium provident <br> nesciunt modi, illum, aut <br> quia neque harum cum nam laudantium officia sint nihil <br> quas possimus?
+          </p>
+          <div class="mt-10">
+            <a
+              href="#"
+              class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent bg-yellow-300 hover:border-yellow-300 bg-white hover:text-white duration-300 hover:border border border-transparent"
+            >Mari Belajar </a>
+            <a href="#">Download Modulnya</a>
+          </div>
+          <div>
+            <img src="images/programmer (1).png"
+              class="w-full xl:w-1/2 absolute fixed bottom-0 right-20"
+              alt="">
+          </div>
+        </div>
+        <div class="text-white">
+          <h2>Apa yang bisa dilakukan JavaScript</h2>
+
+          <p id="demo">JavaScript bisa mengganti konten website</p>
+
+          <button
+            type="button"
+            onclick="changeText()"
+          >
+            Click Me!
+          </button>
+
+          <h3>Contoh Aritmatika</h3>
+          <p id="result"></p>
+          <button
+            type="button"
+            onclick="performArithmetic()"
+          >
+            Hitung!
+          </button>
+        </div>
+      </div>
+    </section>
+    <script>
+      function changeText() {
+        document.getElementById("demo").innerHTML = "Yee, berhasil! Ini adalah hasil dari memasukkan JavaScript pada HTML. Awas, jangan salah ya? Iya, oke.. hehe.";
+      }
+
+      function performArithmetic() {
+        var num1 = 5; // Replace with your first number
+        var num2 = 3; // Replace with your second number
+        var result = num1 + num2;
+        document.getElementById("result").innerHTML = "Hasil penjumlahan: " + result;
+      }
+    </script>
+  </body>
+</html>
+

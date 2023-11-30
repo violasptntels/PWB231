@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+
+/*----------------------------------------------------*/
+/* Nav bar */
+nav{
+   background-color: #363738;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav img{
+position: absolute;
+margin-left: 20px;
+margin-top: 13px;
+}
+
+label.logo{
+color: aliceblue;
+font-size: 35px;
+line-height: 100px;
+padding: 0 100px;
+font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height:  100px;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    position: relative;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+}
+
+.check-btn{
+    color: aliceblue;
+    font-size: 30px;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px ;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+/* Animasi Navbar nya */
+nav li a:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    background-color: aliceblue;
+    transition: all 0.4s ease;
+}
+nav li a:hover:before{
+    width: 100%;
+}
+nav li.center a:hover:before{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ---------------------------------------------------- */
+/*Konten*/
+.services{
+    background: linear-gradient(300deg, #222121 , #8d8e8f, #00334E);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.content{
+    /* CSS for the container */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    width: 560px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    cursor: default;
+    transition: all .2s ease-in-out;
+    
+}
+
+/* CSS for the card title */
+.card-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    
+}
+
+/* CSS for the card content */
+.card-content {
+    text-align: center;
+    font-size: 16px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.service img{
+border-radius: 50%;
+margin: 20px 0 ;
+height: 350px;
+width: 350px;
+}
+
+.container p {
+    padding:30px 0px;
+}
+
+.container h3{
+    margin-top: 30px;
+}
+#hero {
+    background: url(../assets/mixer.jpg) repeat 0 0;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    height: px;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: #0082e6;
+}
+
+
+.service {
+    margin: 20px;
+}
+.service img{
+    border-radius: 50%;
+    margin: 20px 0 ;
+}
+
+
+/* Style the portfolio section */
+#portfolio {
+    background-color: rgb(172, 179, 185);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin: 20px;
+}
+
+/* Style the contact section */
+#contact {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #adb3b8;
+    color: white;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+form .btn{
+    display: flex;
+    margin-left: 47%;
+}
+
+/* Style the footer */
+footer {
+    background-color: #363738;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+@media (max-width : 1300px){
+.card{
+width: auto ;
+}
+}
+
+@media (max-width : 925px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+        margin-left: 40px;
+    }
+    nav img{
+        height: 70px;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 15px;
+        }
+    nav ul li a {
+font-size: 16px;
+    }
+    form .btn{
+        display: block;
+        margin-left: 45%;
+    }
+}
+
+@media (max-width : 825px){
+    .check-btn{
+        display: block;
+    }
+    ul{
+        position:fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #2c3e50;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    input,
+    textarea {
+        width: 90% ;
+        padding: 10px;
+    }
+    form .btn{
+        display: block;
+        margin-left: 43%;
+    }
+}
+
+@media (max-width : 470px) {
+ 
+    
+    nav img{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 13px;
+    }
+    
+
+    label.logo{
+        font-size: 20px;
+        padding-left: 50px;
+        margin-left: 40px;
+    }
+    nav img{
+        height: 70px;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 15px;
+        }
+        .container img{
+            height: 250px;
+            width: 250px;
+            
+        }
+        .service img{
+            border-radius: 50%;
+            margin: 20px 0 ;
+            height: 300px;
+            width: 300px;
+        }
+        
+    nav ul li a {
+font-size: 16px;
+    }
+    #hero h2{
+        font-size: 24px;
+    }
+    #hero p{
+        font-size: 20px;
+        
+    }
+    .check-btn{
+        font-size: 25px;
+    }
+    form .btn{
+        display: flex;
+        margin-left: 133px;
+    }
+
+    }
+   
+
