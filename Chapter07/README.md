@@ -53,7 +53,7 @@
 | 714230051 | Indra Agustin | https://indraagstin025.github.io/ASESMENTIndraagus/ | 100 |
 | 714230053 | Ahmad Lahay Mahendra | https://mobius0263.github.io/ahmadlm/ | |
 | 714230054 | Lusia Barek Lawe | https://lusia1301.github.io/lusia1B/ | 100 |
-| 714230055 | Muhammad Hisyam Najwan | https://hisyamsamam.github.io/syam/ | |
+| 714230055 | Muhammad Hisyam Najwan | https://hisyamsamam.github.io/syam/ |95 |
 | 714230056 | Raihan Aditya Hermawan | https://rexndlezero.github.io/ReyyDomain/ | 100 |
 | 714230057 | Muhammad Hilmi Romadoni | https://hilmibotak.github.io/mhmd-hilmi/ | minggu depan |
 | 714230058 | Muhammad Okta Toriq | https://astheria23.github.io/sewaAudio/ | |
@@ -63,7 +63,7 @@
 | 714230062 | Rizqi Iqmal Fauzan | https://rizqiiqmal.github.io/rizqiiqmal/ | |
 | 714230063 | Fardhan Raihan Daswara | https://fardhanrd.github.io/nyo/  |100 |
 | 714230064 | A.M. Faraziftan | https://faraziftan.github.io/assesment-Rajif/ | 85 |
-| 714230065 | Dwi Puspa Firdaus | https://dwifirdaus08.github.io/REPOSIT-BARU/ | |
+| 714230065 | Dwi Puspa Firdaus | https://dwifirdaus08.github.io/REPOSIT-BARU/ | 100|
 | 714230066 | Zahra Dia Handoko | https://zahradh28.github.io/ZahraDiaH/ | 100 |
 | 714230068 | Aqila Zafira | https://aqilazafira.github.io/aqila-zafira/ | |
 | 714230069 | Aghni Hasna Mufida | https://aghniihsn.github.io/language-course/ | |
