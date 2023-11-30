@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kawasaki h2r</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-[url('img/moroccan-flower.png')] relative pb-20">
+      <!-- ini navbar -->
+      <nav class="bg-white w-full py-6">
+        <div class="px-28 flex items-center">
+          <img src="img/logo-kawasaki.png" alt="logo" class="w-40 cursor-pointer" />
+          <ul class="flex-1 text-center">
+            <li class="list-none inline-block px-5">
+              <a href="tahap-pengembangan.html" class="text-black no-underline px-2">About</a>
+            </li>
+            <li class="list-none inline-block px-5">
+              <a href="tahap-pengembangan.html" class="text-black no-underline px-2">Galery</a>
+            </li>
+            <li class="list-none inline-block px-5">
+              <a href="tahap-pengembangan.html" class="text-black no-underline px-2">Contact</a>
+            </li>
+          </ul>
+          <a href="tahap-pengembangan.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+      <!-- ini content -->
+      <div class="text-black mt-20 mb-20 flex items-center px-28 flex-wrap">
+        <div class="w-full md:w-1/2">
+          <h1 class="text-6xl font-semibold leading-normal">
+            Kawasaki Ninja H2R <br />
+            <span class="font-light">386,2 Km/Jam</span>
+          </h1>
+          <div class="mt-10">
+            <a href="tahap-pengembangan.html" class="bg-gray-900 text-white py-3 px-8 font-medium inline-block mr-4 hover:bg-zinc-700 hover:text-white duration-300 border-green-600 border">LIHAT SPESIFIKASI & RINCIAN</a>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 mt-10 md:mt-0">
+          <img src="img/motor-h2.png" alt="" class="w-full" />
+        </div>
+      </div>
+    </div>
+    <!-- aritmatika -->
+    <div class="max-w-screen-lg mx-auto bg-white p-6 rounded-lg shadow-md flex mt-5 mb-5">
+      <div class="w-1/2">
+        <img src="img/motor-h2.png" alt="Gambar Produk" class="w-full h-auto p-10" />
+      </div>
+      <div class="w-1/2 p-4">
+        <h2 class="text-2xl font-semibold mb-4">Detail Produk</h2>
+        <div class="mb-4">
+          <label for="harga" class="block text-sm font-medium">Harga Barang (per barang)</label>
+          <div class="flex items-center">
+            <input type="number" id="harga" class="w-full p-2 border rounded" value="788000000" disabled />
+            <p class="px-2">IDR</p>
+          </div>
+        </div>
+        <div class="mb-4">
+          <label for="jumlah" class="block text-sm font-medium mr-2">Jumlah Barang</label>
+          <div class="flex items-center">
+            <button id="kurang" class="bg-neutral-900 text-white py-2 px-4 rounded hover:bg-neutral-700">-</button>
+            <input type="number" id="jumlah" class="w-full p-2 border rounded" value="1" max="10" />
+            <button id="tambah" class="bg-neutral-900 text-white py-2 px-4 rounded hover:bg-neutral-700">+</button>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label for="total" class="block text-sm font-medium">Total Harga</label>
+          <div class="flex items-center">
+            <input type="number" id="total" class="w-full p-2 border rounded" disabled />
+            <p class="px-2">IDR</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- lampu -->
+    <div class="my-10 mx-10">
+      <img id="myImage" onclick="changeImage()" src="img/pic_bulbon.gif" width="100" height="180" />
+      <h2 class="text-2xl font-bold">nyala / matikann lampu</h2>
+      <p>dengan cara klik lampu</p>
+    </div>
+
+    <!-- paragraf berubah -->
+    <div class="my-10 mx-10">
+      <h1 class="text-2xl font-bold">Tekan tombol di bawah</h1>
+      <p id="demo" class="border p-3 m-1">maka pagaraf ini akan berubah, coba di tekan</p>
+      <button type="button" class="bg-neutral-200 p-3 rounded hover:bg-neutral-400" onclick="Pdemo()">Tekan disini</button>
+    </div>
+
+    <!-- scriptE -->
+    <script src="lampu.js"></script>
+    <script src="paragraf.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="aritmatika.js"></script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Website dengan Tailwind</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="container relative min-h-screen py-5 bg-gray-800 bg-center bg-cover px-28"
+    >
+      <nav class="flex items-center">
+        <img
+          src="image/logo (1).png"
+          alt="logonyaini"
+          class="w-40 cursor-pointer"
+        />
+
+        <ul class="flex-1 text-center">
+          <li class="inline-block px-5 list-none">
+            <a href="index.html" class="px-2 text-white no-underline">Home</a>
+          </li>
+          <li class="inline-block px-5 list-none">
+            <a href="#" class="px-2 text-white no-underline">About</a>
+          </li>
+          <li class="inline-block px-5 list-none">
+            <a href="#" class="px-2 text-white no-underline">Features</a>
+          </li>
+          <li class="inline-block px-5 list-none">
+            <a href="#" class="px-2 text-white no-underline">Contact</a>
+          </li>
+        </ul>
+        <img src="image/cart (1).png" alt="keranjang" class="w-8 cursor-pointer" />
+      </nav>
+<br><br>
+    <div class="px-5 bg-white py-19 sm:py-32 rounded-2xl">
+      <div class="px-6 mx-auto max-w-7xl lg:px-8">
+        <div class="max-w-2xl mx-auto sm:text-center">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Kursus Tailwindcss TERBAIK di Carawali</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">10.000 orang sudah bergabung dari Newbie hingga Expert.</p>
+          <p class="mt-2 text-lg leading-8 text-gray-600">BAGAIMANA DENGAN ANDA????</p>
+        </div>
+        <div class="max-w-2xl mx-auto mt-16 rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+          <div class="p-8 sm:p-10 lg:flex-auto">
+            <h3 class="text-2xl font-bold tracking-tight text-gray-900">Fasilitas</h3>
+            <ul role="list" class="grid grid-cols-1 gap-4 mt-8 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6">
+              <li class="flex gap-x-3">
+                <svg class="flex-none w-5 h-6 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                </svg>
+                Bersertifikat
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="flex-none w-5 h-6 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                </svg>
+                Seminggu 3 pertemuan
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="flex-none w-5 h-6 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                </svg>
+                Biaya bisa diangsur
+              </li>
+              <li class="flex gap-x-3">
+                <svg class="flex-none w-5 h-6 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                </svg>
+                Jadwal bebas
+              </li>
+            </ul>
+          </div>
+          <div class="p-2 -mt-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+            <div class="py-10 text-center rounded-2xl bg-gray-50 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+              <div class="max-w-xs px-8 mx-auto">
+                <form action="" id="kodeDiskon">
+                <p class="text-base font-semibold text-gray-600">Beli Sekarang Untuk Dapatkan Penawaran Terbaik</p>
+                <p class="flex items-baseline justify-center mt-6 gap-x-2">
+                  <span class="text-4xl font-bold tracking-tight text-gray-900">Rp. 500,000</span>
+                  <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">Rupiah</span>
+                </p>
+                <div class="py-3">
+                  <label for="price" class="block text-sm font-medium leading-6 text-gray-900">Masukkan Kode Diskon</label>
+                  <div class="relative mt-2 rounded-md shadow-sm">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                      <span class="text-gray-500 sm:text-sm"></span>
+                    </div>
+                    <input type="text" name="diskon" id="diskon" class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Masukkan Kode">
+                  </div>
+                </div>
+                <button onclick="" type="submit" class="block w-full px-3 py-2 mt-3 text-sm font-semibold text-center text-white bg-indigo-600 rounded-md shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Beli</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <script>            
+            var harga = 500000;
+            var hasil;
+            var diskon = 0.5;
+
+            let loginForm = document.getElementById("kodeDiskon");
+
+            loginForm.addEventListener("submit", (e) => {
+              e.preventDefault();
+
+              let kode_diskon = document.getElementById("diskon");
+
+              if (kode_diskon.value == "MASSAPODDA") {
+                hasil =  diskon * harga;
+                hargaDiskon = harga - hasil;
+                alert("Terimakasih telah membeli, harga yang anda dapatkan : Rp. " + hargaDiskon);
+                console.log(
+                  `Selamat anda berhasil mendapatkan harga diskon Rp. ${hargaDiskon}`
+                );
+              } else {
+                alert("Terimakasih telah membeli, harga yang anda dapatkan : Rp. " + harga);
+                console.log(
+                    `Harga yang anda dapatkan Rp.${harga}`
+                  );
+              }
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>  
+</html>
