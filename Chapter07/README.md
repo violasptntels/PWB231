@@ -65,7 +65,7 @@
 | 714230064 | A.M. Faraziftan | https://faraziftan.github.io/assesment-Rajif/ | 85 |
 | 714230065 | Dwi Puspa Firdaus | https://dwifirdaus08.github.io/REPOSIT-BARU/ | 100|
 | 714230066 | Zahra Dia Handoko | https://zahradh28.github.io/ZahraDiaH/ | 100 |
-| 714230068 | Aqila Zafira | https://aqilazafira.github.io/aqila-zafira/ | |
+| 714230068 | Aqila Zafira | https://aqilazafira.github.io/aqila-zafira/ |80 |
 | 714230069 | Aghni Hasna Mufida | https://aghniihsn.github.io/language-course/ | 100|
 | 714230070 | Muhammad Farid Al Mustofa | | |
 
