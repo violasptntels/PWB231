@@ -9,7 +9,7 @@
   <h2>Latihan 1</h2>
   <?php
     $x = 5;
-    $n = $x % 2 == 0 ? 'ganjil' : 'genap';
+    $n = $x % 2 == 0 ? 'genap': 'ganjil';
     echo "$x adalah bilangan $n";
   ?>
 </body>
