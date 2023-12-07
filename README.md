@@ -50,7 +50,7 @@ Repository untuk perkuliahan pemrograman 1 (Design Website dan Pemrograman) dima
 | Kelompok 07 | M. Fadhail | Aqila | | Booking Coffee shop|
 | Kelompok 08 | Iqbal | Lusia | |Digital Library |
 | Kelompok 09 | M. Agung | Dwi | | Rental Mobil Alimrugi|
-| Kelompok 10 | Rizqi Iqmal | M. Okta | Farid | Skate Scholl |
+| Kelompok 10 | Rizqi Iqmal | M. Okta | Farid | Skate Schooll |
 | Kelompok 11 | M. Hisyam | Sarah | | Pengaduan Masyarakat RT/RW Care|
 | Kelompok 12 | Ahmad L. | Jiftan | | Kursus Bahasa Inggris |
 
