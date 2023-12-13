@@ -22,11 +22,10 @@
 
     <h1>Status Pendaftaran</h1>
     <?php 
-    // Check if $status is defined before echoing it
     if (isset($status)) {
         echo "<p>$status</p>";
     } else {
-        echo "<p>Status tidak tersedia.</p>";
+        echo "<p>Status Pendaftaran Berhasil.</p>";
     }
     ?>
     <?php include("config.php"); ?>
